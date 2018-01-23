@@ -1,2 +1,6 @@
 What happens when you initialize a repository? Why do you need to do it?
 .git file is added, which  make it accessible for git features.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+Staging is a step before the commit process in git. That is, a commit in git is performed in two steps: staging and actual commit. As long as a changeset is in the staging area, git allows you to edit it as you like (replace staged files with other versions of staged files, remove changes from staging, etc.).
+
